@@ -230,7 +230,7 @@ class StatsEntry(object):
     
     def extend(self, other, full_request_history=False):
         """
-        Extend the data fro the current StatsEntry with the stats from another
+        Extend the data from the current StatsEntry with the stats from another
         StatsEntry instance. 
         
         If full_request_history is False, we'll only care to add the data from 
